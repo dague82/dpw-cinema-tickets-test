@@ -5,10 +5,15 @@ info:
   description: Cinema Tickets Service
   version: 0.0.2
 
-license:
-  name: MIT License
-  identifier: MIT
-  url: https://opensource.org/license/mit
+servers:
+  - url: http://localhost:8080
+    description: Local
+
+##license:
+##  name: MIT License
+##  identifier: MIT
+##  url: https://opensource.org/license/mit
+
 
 tags:
   - name: bookings
